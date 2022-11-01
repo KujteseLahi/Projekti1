@@ -1,0 +1,242 @@
+body{
+    font-family: monospace;
+}
+
+
+.first-part{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content:space-between ;
+    
+   
+}
+
+.second-part{
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.grid{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+}
+
+.grid-img{
+    margin-left: 8%;
+}
+
+
+.imgfrst{
+    width: 29%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.title-left{
+    position: absolute;
+    left:5%;
+    top:-9%;
+}
+
+.fourth-part{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.button{
+    background-color: white;
+    color: black;
+  
+    width: 120px;
+    height: 40px;
+   
+    animation-name: hbtxt;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    border-radius: 0px;
+    border-color: black;
+    border:1px solid;
+    transition:all 0.4s ease;;
+  
+
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+@keyframes hbtxt{
+    from{top:0px ; color: aliceblue;border-color: aliceblue;}
+    to{top: 0px; color:black;border-color: black;}
+}
+
+
+
+
+
+
+
+.last-part{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    justify-content:space-around ;
+}
+
+.frst{
+    display:  flex;
+    flex-direction:column;
+
+}
+
+.scnd{
+    display:  flex;
+    flex-direction:column;
+    
+    
+
+}
+
+.thrd{
+    display:  flex;
+    flex-direction:column;
+    
+
+}
+
+.frst>a{
+    background-color: white;
+    color: grey;
+    border: 0px;
+    animation-name: h5txt;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+}
+.scnd>a{
+    background-color: white;
+    color: grey;
+    border: 0px;
+    animation-name: h5txt;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+    
+
+}
+
+.twobox{
+    display: flex;
+    flex-direction: row;
+   
+    animation-name: h1txt;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    justify-content:center ;
+    margin-top: 10%;
+    
+
+    
+}
+
+
+
+.about{
+    
+    width: 40%;
+    height:135px;
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    animation-name: hbbtxt;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    font-size: 27px;
+    letter-spacing: 0.4em;
+    padding-top: 9%;
+    
+  
+    
+}
+.aboutB{
+    font-family: 'Roboto', sans-serif; 
+    color: aliceblue; 
+    font-weight: 600; 
+    text-decoration: none;
+    animation-name: hbbtxt;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    
+  
+    
+}
+
+.aboutB:hover{
+    
+    background-color: aliceblue;
+    color: black;
+    
+}
+
+
+
+.about:hover{
+    
+    background-color: aliceblue;
+    
+}
+
+.logos{
+    width: 40%;
+    height:135px;
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding-top: 9%;
+    transition: 0.3s;
+    animation-name: hbbtxt;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    margin-right: 50px;
+    letter-spacing: 0.4em;
+}
+    
+    
+
+
+.logoB{
+    font-family: 'Roboto', sans-serif; 
+    color: aliceblue; 
+    font-weight: 700; 
+    text-decoration: none;
+    animation-name: hbbtxt;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    font-size: 27px;
+
+}
+@keyframes hbbtxt{
+    from{top: 0px; color:white;background-color: white;}
+    to{top:0px ; color: aliceblue;background-color: black;}
+}
+
+.menu{
+    position: fixed;
+}
